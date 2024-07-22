@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Node } from '@/types/folder.type';
+import type { Node } from '@/types/node.type';
 import { ref } from 'vue';
 defineProps<{ node: Node }>();
 
